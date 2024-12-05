@@ -13,7 +13,7 @@ export default function Explorin({name,count,images}) {
     }
   },[all_images])
   return (
-    <div className='main'>
+    <div className='main color-red-700'>
       <div className='image-container'>
         <div className='images'>
           {
