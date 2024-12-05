@@ -27,9 +27,11 @@ const App = () => {
             j.bookmark = true
             set.add(j.id)
           }
-          if(!set.has(j.id)){
-            j.bookmark = false
-          }
+        }
+      }
+      for(let i of d){
+        if(!set.has(i.id)){
+          i.bookmark = false
         }
       }
       setAllJobs([...d])
