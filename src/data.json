@@ -1,0 +1,453 @@
+[
+    {
+      "id": 1,
+      "title": "Technical Support Specialist",
+      "salary": "$20,000 - $25,000",
+      "company": "Google Inc.",
+      "location": "Dhaka, Bangladesh",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 2,
+      "title": "Senior UX Designer",
+      "salary": "$20,000 - $25,000",
+      "company": "Google Inc.",
+      "location": "Dhaka, Bangladesh",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 3,
+      "title": "Software Engineer",
+      "salary": "$35,000 - $40,000",
+      "company": "Amazon",
+      "location": "London, UK",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 4,
+      "title": "Data Scientist",
+      "salary": "$45,000 - $55,000",
+      "company": "Microsoft",
+      "location": "New York, USA",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 5,
+      "title": "Product Manager",
+      "salary": "$50,000 - $60,000",
+      "company": "Apple Inc.",
+      "location": "San Francisco, USA",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 6,
+      "title": "Project Coordinator",
+      "salary": "$40,000 - $45,000",
+      "company": "Facebook",
+      "location": "Berlin, Germany",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 7,
+      "title": "Backend Developer",
+      "salary": "$60,000 - $70,000",
+      "company": "Netflix",
+      "location": "Paris, France",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 8,
+      "title": "Frontend Developer",
+      "salary": "$55,000 - $65,000",
+      "company": "Tesla",
+      "location": "Austin, USA",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 9,
+      "title": "Data Analyst",
+      "salary": "$30,000 - $40,000",
+      "company": "Spotify",
+      "location": "Toronto, Canada",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 10,
+      "title": "UX Researcher",
+      "salary": "$45,000 - $50,000",
+      "company": "Adobe",
+      "location": "Los Angeles, USA",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 11,
+      "title": "Marketing Specialist",
+      "salary": "$25,000 - $30,000",
+      "company": "Adobe",
+      "location": "Melbourne, Australia",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 12,
+      "title": "Full Stack Developer",
+      "salary": "$70,000 - $80,000",
+      "company": "Twitter",
+      "location": "Los Angeles, USA",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 13,
+      "title": "HR Specialist",
+      "salary": "$30,000 - $35,000",
+      "company": "LinkedIn",
+      "location": "San Francisco, USA",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 14,
+      "title": "Sales Executive",
+      "salary": "$40,000 - $50,000",
+      "company": "Oracle",
+      "location": "Toronto, Canada",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 15,
+      "title": "Network Engineer",
+      "salary": "$50,000 - $60,000",
+      "company": "Cisco",
+      "location": "Chicago, USA",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 16,
+      "title": "System Administrator",
+      "salary": "$45,000 - $55,000",
+      "company": "IBM",
+      "location": "Seattle, USA",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 17,
+      "title": "DevOps Engineer",
+      "salary": "$60,000 - $70,000",
+      "company": "AWS",
+      "location": "Boston, USA",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 18,
+      "title": "Mobile App Developer",
+      "salary": "$55,000 - $65,000",
+      "company": "Snapchat",
+      "location": "London, UK",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 19,
+      "title": "Cloud Engineer",
+      "salary": "$70,000 - $85,000",
+      "company": "Google Cloud",
+      "location": "Vancouver, Canada",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 20,
+      "title": "AI Researcher",
+      "salary": "$80,000 - $90,000",
+      "company": "Microsoft Research",
+      "location": "San Francisco, USA",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 21,
+      "title": "Security Analyst",
+      "salary": "$60,000 - $70,000",
+      "company": "Palo Alto Networks",
+      "location": "Berlin, Germany",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 22,
+      "title": "Content Writer",
+      "salary": "$25,000 - $35,000",
+      "company": "HubSpot",
+      "location": "Dublin, Ireland",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 23,
+      "title": "Front-End Developer",
+      "salary": "$50,000 - $60,000",
+      "company": "Slack",
+      "location": "San Jose, USA",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 24,
+      "title": "Salesforce Developer",
+      "salary": "$70,000 - $80,000",
+      "company": "Salesforce",
+      "location": "Austin, USA",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 25,
+      "title": "Marketing Manager",
+      "salary": "$60,000 - $75,000",
+      "company": "Spotify",
+      "location": "Berlin, Germany",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 26,
+      "title": "Graphic Designer",
+      "salary": "$35,000 - $45,000",
+      "company": "Canva",
+      "location": "Sydney, Australia",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 27,
+      "title": "Business Analyst",
+      "salary": "$50,000 - $65,000",
+      "company": "Accenture",
+      "location": "London, UK",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 28,
+      "title": "Cloud Solutions Architect",
+      "salary": "$90,000 - $110,000",
+      "company": "Oracle Cloud",
+      "location": "Paris, France",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 29,
+      "title": "Content Strategist",
+      "salary": "$40,000 - $50,000",
+      "company": "Zendesk",
+      "location": "Toronto, Canada",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 30,
+      "title": "Senior Cloud Engineer",
+      "salary": "$80,000 - $95,000",
+      "company": "AWS",
+      "location": "San Francisco, USA",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 31,
+      "title": "Research Scientist",
+      "salary": "$90,000 - $100,000",
+      "company": "IBM",
+      "location": "Zurich, Switzerland",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 32,
+      "title": "Business Development Manager",
+      "salary": "$60,000 - $75,000",
+      "company": "Salesforce",
+      "location": "London, UK",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 33,
+      "title": "Solutions Engineer",
+      "salary": "$65,000 - $80,000",
+      "company": "Shopify",
+      "location": "Toronto, Canada",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 34,
+      "title": "Junior Web Developer",
+      "salary": "$30,000 - $40,000",
+      "company": "Trello",
+      "location": "Sydney, Australia",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 35,
+      "title": "Site Reliability Engineer",
+      "salary": "$75,000 - $90,000",
+      "company": "Google Cloud",
+      "location": "Austin, USA",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 36,
+      "title": "Cloud Operations Specialist",
+      "salary": "$70,000 - $85,000",
+      "company": "Microsoft Azure",
+      "location": "Berlin, Germany",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 37,
+      "title": "Legal Assistant",
+      "salary": "$40,000 - $50,000",
+      "company": "Netflix",
+      "location": "Los Angeles, USA",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 38,
+      "title": "Customer Support Specialist",
+      "salary": "$30,000 - $35,000",
+      "company": "Zoom",
+      "location": "Vancouver, Canada",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 39,
+      "title": "Game Developer",
+      "salary": "$50,000 - $70,000",
+      "company": "Epic Games",
+      "location": "Los Angeles, USA",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 40,
+      "title": "Digital Marketing Specialist",
+      "salary": "$35,000 - $45,000",
+      "company": "HubSpot",
+      "location": "Dublin, Ireland",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 41,
+      "title": "Network Security Engineer",
+      "salary": "$80,000 - $95,000",
+      "company": "Cloudflare",
+      "location": "New York, USA",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 42,
+      "title": "Web Developer",
+      "salary": "$40,000 - $50,000",
+      "company": "Stripe",
+      "location": "Seattle, USA",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 43,
+      "title": "Product Designer",
+      "salary": "$50,000 - $60,000",
+      "company": "Dropbox",
+      "location": "Austin, USA",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 44,
+      "title": "JavaScript Developer",
+      "salary": "$55,000 - $70,000",
+      "company": "GitHub",
+      "location": "San Francisco, USA",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 45,
+      "title": "Content Manager",
+      "salary": "$45,000 - $60,000",
+      "company": "Hootsuite",
+      "location": "Toronto, Canada",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 46,
+      "title": "HR Manager",
+      "salary": "$60,000 - $70,000",
+      "company": "Zoom",
+      "location": "London, UK",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 47,
+      "title": "Operations Manager",
+      "salary": "$70,000 - $85,000",
+      "company": "Tesla",
+      "location": "Shanghai, China",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 48,
+      "title": "Cybersecurity Engineer",
+      "salary": "$85,000 - $100,000",
+      "company": "Amazon Web Services",
+      "location": "Singapore",
+      "remote": false,
+      "logo": ""
+    },
+    {
+      "id": 49,
+      "title": "Cloud Support Engineer",
+      "salary": "$60,000 - $75,000",
+      "company": "Azure",
+      "location": "Tokyo, Japan",
+      "remote": true,
+      "logo": ""
+    },
+    {
+      "id": 50,
+      "title": "Quality Assurance Engineer",
+      "salary": "$55,000 - $65,000",
+      "company": "Google",
+      "location": "New York, USA",
+      "remote": true,
+      "logo": ""
+    }
+  ]
+  
