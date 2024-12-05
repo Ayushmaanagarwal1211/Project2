@@ -48,10 +48,12 @@ export default function Listings() {
   return (
     <div className="container mx-auto px-4 py-8 mb-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {jobs.length > 0 &&
+        {jobs.length > 0 ?
           jobs.map((job) => (
             <JobCard key={job.id} job={job} />
-          ))}
+          )):
+         !loading &&  <h1 className='text-[25px] text-center'>No More Jobs</h1>
+        }
       </div>
 
       {loading && (
