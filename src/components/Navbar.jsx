@@ -6,7 +6,8 @@ import Context from '../context';
 import cat from '../images/cat.png'
 export default function Navbar() {
     let [showSavedJobs,setShowSavedJobs] = useState(true)
-    let {setAllJobs,setPageNum} = useContext(Context)
+    let {setAllJobs,setPageNum,isChecked,setIsChecked} = useContext(Context)
+   
     function handleSavedJobs(){
         let arr = localStorage.getItem('data') || '[]'
         arr = JSON.parse(arr)
@@ -33,16 +34,19 @@ export default function Navbar() {
         setPageNum(1)
     }
     function handleShowAllJobs(){
-        loadAll()
+        // loadAll()
         setShowSavedJobs(true)
     }
     function handleChange(e){
         if(e.target.checked){
             handleSavedJobs()
+            setIsChecked(true)
         }else{
+            setIsChecked(false)
             handleShowAllJobs()
         }
     }
+    
   return (
     <div className='h-[80px]  w-[100vw] flex  bg-[#f2f3f4]'>
         <div className='flex w-[30%] gap-[10px] h-[100%] justify-center items-center'>

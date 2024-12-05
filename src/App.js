@@ -12,23 +12,34 @@ const App = () => {
   let [location,setLocation] = useState("")
   let [allJobs,setAllJobs] = useState([])
   let [pagenum,setPageNum] = useState(1)
+  let [isChecked,setIsChecked] = useState(false)
+
   useEffect(()=>{
-    let d = [...jobsData]
-    let data = localStorage.getItem('data') || '[]'
-    data = JSON.parse(data)
-    for(let i of data){
-      for(let j of d){
-        if(j.id == i.id){
-          j.bookmark = true
+    if(!isChecked){
+      let set = new Set()
+
+      let d = [...jobsData]
+      let data = localStorage.getItem('data') || '[]'
+      data = JSON.parse(data)
+      for(let i of data){
+        for(let j of d){
+          if(j.id == i.id){
+            j.bookmark = true
+            set.add(j.id)
+          }
+          if(!set.has(j.id)){
+            j.bookmark = false
+          }
         }
       }
+      setAllJobs([...d])
+      console.log('unjfsdsdsd')
     }
-    setAllJobs([...d])
-  },[])
+  },[isChecked])
 
   return (
     <div>
-      <Context.Provider value={{data,setData,location,setLocation,allJobs,setAllJobs,pagenum,setPageNum}}>
+      <Context.Provider value={{data,setData,location,setLocation,allJobs,setAllJobs,pagenum,setPageNum,isChecked,setIsChecked}}>
         <Navbar/>
         <Main/>
         <Listings/>

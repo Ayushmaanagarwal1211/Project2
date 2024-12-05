@@ -7,7 +7,7 @@ export default function Main() {
     let {data,setData,location,setLocation,allJobs,setAllJobs,pagenum,setPageNum} = useContext(Context)
     let input = useRef()    
     let locationRef = useRef()
-
+    
     function handleInputChange(e){
         if(e.target.name == 'title'){
             setData(e.target.value)

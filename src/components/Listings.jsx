@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import JobCard from './JobCard';
 import Context from '../context';
+import jobsData from "../data.json"; 
 
 export default function Listings() {
   const [jobs, setJobs] = useState([]);
@@ -10,7 +11,7 @@ export default function Listings() {
   let {data,location,allJobs,setAllJobssetPageNum,pagenum} = useContext(Context)
   const loadJobs = () => {
     setLoading(true);
-    const start = (pagenum - 1) * jobsPerPage;
+    const start = (page - 1) * jobsPerPage;
     const end = start + jobsPerPage;
     const newJobs = allJobs.slice(start, end);
     let arr = []
@@ -28,6 +29,7 @@ export default function Listings() {
   }, [page,allJobs,pagenum]);
   useEffect(()=>{
     setJobs([])
+    setPage(pagenum)
   },[pagenum,allJobs])
 
   const handleScroll = () => {

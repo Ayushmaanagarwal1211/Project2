@@ -1,11 +1,24 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useRef, useState } from 'react'
 import { FaBookmark,FaLocationDot } from 'react-icons/fa6'
 import Context from '../context'
 import google from '../images/google.png'
+import jobsData from "../data.json"; 
 
 export default function JobCard({ job }) {
     let [isBookmarked,setisBookMarked] = useState(job.bookmark)
-    let {setAllJobs,allJobs} = useContext(Context)
+    let {setAllJobs,allJobs,isChecked,setPageNum} = useContext(Context)
+    function loadFilter(){
+        let arr = localStorage.getItem('data') || '[]'
+        arr = JSON.parse(arr)
+        let temp = []
+        for(let i of arr){
+            temp.push(i)
+        }
+        setAllJobs([...temp])
+        setPageNum(1)
+    }
+
+
     function addBookMark(){
         let data = localStorage.getItem('data') || '[]'
         data = JSON.parse(data)
@@ -36,6 +49,10 @@ export default function JobCard({ job }) {
         console.log(data)
         data = data.filter((d)=>d.id !== job.id)
         localStorage.setItem('data',JSON.stringify([...data]))
+        if(isChecked){
+            loadFilter()
+        }
+        
     }
 
   return (
